@@ -2,7 +2,7 @@ import { Compilation, Compiler } from "webpack";
 import javascriptObfuscator from "javascript-obfuscator";
 import { readFileSync, writeFileSync } from "fs";
 import { execSync } from "child_process";
-import { TInputOptions } from "javascript-obfuscator/typings/src/types/options/TInputOptions";
+import { TInputOptions } from "javascript-obfuscator/typings/src/types/options/TInputOptions.js";
 
 const pluginName = "ObfuscatorCode";
 const tempFileName = "ObfuscatedFile.js";
