@@ -1,11 +1,8 @@
 {
   "name": "@bdxygy/webpack-javascript-obfuscator-plugin",
-  "version": "1.0.3-stable",
+  "version": "1.0.5-stable",
   "description": "This package is the successor of javascript-obfuscator specifically designed for the webpack environment. It performs obfuscation after webpack has completed the afterEmit lifecycle.",
-  "main": "dist/index.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && npm run build:cjs",
     "build:cjs": "tsc --outDir ./"
