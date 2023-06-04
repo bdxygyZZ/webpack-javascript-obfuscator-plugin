@@ -8,7 +8,7 @@ const pluginName = "ObfuscatorCode";
 const tempFileName = "ObfuscatedFile.js";
 
 export interface ObfuscatorOption extends TInputOptions {}
-class ObfuscatorCode {
+class ObfuscatorPlugin {
   private obfuscatorOption?: ObfuscatorOption | undefined;
   constructor(obfuscatorOptionParam?: ObfuscatorOption | undefined) {
     if (obfuscatorOptionParam) {
@@ -61,4 +61,4 @@ class ObfuscatorCode {
   }
 }
 
-export default ObfuscatorCode;
+export default ObfuscatorPlugin;
