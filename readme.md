@@ -10,7 +10,7 @@ https://github.com/javascript-obfuscator/webpack-obfuscator
 ## Here's an example of how to use this package:
 ```bash
 ... // webpack.config.js
-plugins: [new ObfuscatorCode({
+plugins: [new ObfuscatorPlugin({
     renameGlobals: true,
     compact: true,
     target: "node",
