@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "rm -rf dist && npm run build:cjs",
-    "build:cjs": "tsc --outDir dist/"
+    "build:cjs": "tsc --outDir ./"
   },
   "repository": {
     "type": "git",
